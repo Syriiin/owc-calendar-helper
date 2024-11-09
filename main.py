@@ -17,7 +17,7 @@ if round_match is None:
 round_name = round_match["round"]
 
 # extract match data
-match_pattern = r"^\| (?P<team1>[\w ]+) .*\|.* (?P<team2>[\w ]+) \|.+iso=(?P<isotimestamp>[\dTZ:+-]+).+?(?:(?P<stream>https://twitch\.tv/\w+).*)?$"
+match_pattern = r"^\| (?P<team1>[\w ]+) .*\|.*? (?P<team2>[\w ]+) \|.+iso=(?P<isotimestamp>[\dTZ:+-]+).+?(?:(?P<stream>https://twitch\.tv/\w+).*)?$"
 matches = re.findall(match_pattern, response.text, re.MULTILINE)
 
 # convert data
