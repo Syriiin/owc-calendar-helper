@@ -1,0 +1,5 @@
+services:
+  owc-calendar-helper:
+    build: .
+    volumes:
+      - .:/app
