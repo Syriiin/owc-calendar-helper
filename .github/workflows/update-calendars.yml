@@ -1,0 +1,21 @@
+name: update-calendars
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *' # every 12 hours
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-calendars:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: make update-calendars
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          title: "Update calendars"
+          body: "Scheduled update of calendars"
+          branch: "update-calendars"
