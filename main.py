@@ -5,7 +5,7 @@ import httpx
 import icalendar
 
 # fetch wiki page
-url = "https://raw.githubusercontent.com/ppy/osu-wiki/master/wiki/Tournaments/OWC/2024/en.md"
+url = "https://raw.githubusercontent.com/ppy/osu-wiki/master/wiki/Tournaments/OWC/2025/en.md"
 response = httpx.get(url)
 response.raise_for_status()
 
