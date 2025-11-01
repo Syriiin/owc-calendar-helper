@@ -2,8 +2,8 @@ name: update-calendars
 
 on:
   workflow_dispatch: # allows manual triggering
-  # schedule:
-  #   - cron: '0 0,12 * * *' # every 12 hours
+  schedule:
+    - cron: "0 0,12 * * *" # every 12 hours
 
 permissions:
   contents: write
