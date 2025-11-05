@@ -8,4 +8,5 @@ Note the calendars may be updated throughout the week as matches are rescheduled
 
 ## Calendars
 
+- [OWC 2025 calendars](./calendars/2025/)
 - [OWC 2024 calendars](./calendars/2024/)
