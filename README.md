@@ -8,5 +8,20 @@ Note the calendars may be updated throughout the week as matches are rescheduled
 
 ## Calendars
 
-- [OWC 2025 calendars](./calendars/2025/)
-- [OWC 2024 calendars](./calendars/2024/)
+
+<!-- CALENDAR LINKS START -->
+
+### [2024](./calendars/2024/)
+
+- [Finals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2024/Finals.ics)
+- [Grand_Finals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2024/Grand_Finals.ics)
+- [Quarterfinals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2024/Quarterfinals.ics)
+- [Round_of_16.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2024/Round_of_16.ics)
+- [Round_of_32.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2024/Round_of_32.ics)
+- [Semifinals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2024/Semifinals.ics)
+
+### [2025](./calendars/2025/)
+
+- [Group_stage.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Group_stage.ics)
+
+<!-- CALENDAR LINKS END -->
