@@ -8,6 +8,7 @@ Note the calendars may be updated throughout the week as matches are rescheduled
 
 ## Calendars
 
+protip: right click .ics -> "Save link as..."
 
 <!-- CALENDAR LINKS START -->
 
