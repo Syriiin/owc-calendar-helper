@@ -6,3 +6,6 @@ update-calendars:  ## Update all calendars
 
 update-readme:  ## Update README.md with calendar links
 	scripts/update-readme-links.sh
+
+build-site:  ## Build the website
+	docker compose run owc-calendar-helper python website/generatesite.py
