@@ -1,6 +1,6 @@
+import os
 import re
 from datetime import datetime, timedelta, timezone
-import os
 
 import httpx
 import icalendar
@@ -57,6 +57,12 @@ for matchid, team1, team2, isotimestamp, stream in matches:
     )
     event.add("dtstart", isotimestamp)
     event.add("dtend", isotimestamp + timedelta(hours=1))
+
+    alarm = icalendar.Alarm()
+    alarm.add("action", "DISPLAY")
+    alarm.add("trigger", timedelta(minutes=-30))
+    event.add_component(alarm)
+
     cal.add_component(event)
 
 # ensure 2025 directory exists
