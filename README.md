@@ -25,5 +25,6 @@ protip: right click .ics -> "Save link as..."
 
 - [Group_stage_week_1.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Group_stage_week_1.ics)
 - [Group_stage_week_2.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Group_stage_week_2.ics)
+- [Round_of_16.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Round_of_16.ics)
 
 <!-- CALENDAR LINKS END -->
