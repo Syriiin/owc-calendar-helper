@@ -24,6 +24,7 @@ protip: right click .ics -> "Save link as..."
 ### [2025](./calendars/2025/)
 
 - [Finals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Finals.ics)
+- [Grand_Finals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Grand_Finals.ics)
 - [Group_stage_week_1.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Group_stage_week_1.ics)
 - [Group_stage_week_2.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Group_stage_week_2.ics)
 - [Quarterfinals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Quarterfinals.ics)
