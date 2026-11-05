@@ -6,12 +6,12 @@ import httpx
 import icalendar
 
 # fetch wiki page
-url = "https://raw.githubusercontent.com/ppy/osu-wiki/master/wiki/Tournaments/OWC/2025/en.md"
+url = "https://raw.githubusercontent.com/ppy/osu-wiki/master/wiki/Tournaments/OWC/2026/en.md"
 response = httpx.get(url)
 response.raise_for_status()
 
 # extract round name
-round_pattern = r"^## Match schedule: (?P<round>[\w ]+)$"
+round_pattern = r"^## Match schedule: (?P<round>[\w -]+)$"
 round_match = re.search(round_pattern, response.text, re.MULTILINE)
 if round_match is None:
     raise ValueError("Could not find round name")
@@ -39,7 +39,7 @@ for matchid, team1, team2, isotimestamp, stream in matches:
 
 # create icalendar
 cal = icalendar.Calendar()
-cal.add("prodid", "-//https://github.com/Syriiin/owc-calendar-helper//OWC 2025//EN")
+cal.add("prodid", "-//https://github.com/Syriiin/owc-calendar-helper//OWC 2026//EN")
 cal.add("version", "2.0")
 
 for matchid, team1, team2, isotimestamp, stream in matches:
@@ -48,7 +48,7 @@ for matchid, team1, team2, isotimestamp, stream in matches:
     event.add(
         "description",
         (
-            f"OWC 2025 {round_name}\n"
+            f"OWC 2026 {round_name}\n"
             f"{team1} vs {team2}\n"
             f"Match ID: {matchid}\n"
             f"{stream}\n\n"
@@ -65,11 +65,11 @@ for matchid, team1, team2, isotimestamp, stream in matches:
 
     cal.add_component(event)
 
-# ensure 2025 directory exists
-os.makedirs("calendars/2025", exist_ok=True)
+# ensure 2026 directory exists
+os.makedirs("calendars/2026", exist_ok=True)
 
 # save icalendar
-filename = f"calendars/2025/{round_name.replace(' ', '_')}.ics"
+filename = f"calendars/2026/{round_name.replace(' ', '_')}.ics"
 with open(filename, "wb") as f:
     f.write(cal.to_ical())
 
