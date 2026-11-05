@@ -14,7 +14,9 @@ stage_ordering = [
     "Round Of 64",
     "Group Stage",
     "Group Stage Week 2",
+    "Group Stage - Week 2",
     "Group Stage Week 1",
+    "Group Stage - Week 1",
     "Qualifiers",
 ]
 
