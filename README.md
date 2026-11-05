@@ -31,4 +31,9 @@ protip: right click .ics -> "Save link as..."
 - [Round_of_16.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Round_of_16.ics)
 - [Semifinals.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2025/Semifinals.ics)
 
+### [2026](./calendars/2026/)
+
+- [Group_stage_-_Week_1.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2026/Group_stage_-_Week_1.ics)
+- [Group_stage_-_Week_2.ics](https://raw.githubusercontent.com/Syriiin/owc-calendar-helper/refs/heads/master/calendars/2026/Group_stage_-_Week_2.ics)
+
 <!-- CALENDAR LINKS END -->
